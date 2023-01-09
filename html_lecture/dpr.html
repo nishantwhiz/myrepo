@@ -1,0 +1,17 @@
+<!-- dpr is ratio of physical pixel to logical(css) pixel -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img width="100%" srcset="images/heist1.jpg 1x, images/heist2.jpg 2x, images/heist3.jpg 3x" src="images/heist3.jpg" alt="Money Heist">  
+    <!-- 3x is the highest quality image -->
+    <img width="100%" srcset="images/rabbit1.jpg 400w, images/rabbit2.jpg 600w, images/rabbit3.jpg 3x" src="images/rabbit3.jpg" alt="Rabbit">  
+    <!-- to tackle the art direction problem (solution:showing cropped image on small screen) -->
+    <!-- one higest quality image should have no condition is good practice -->
+</body>
+</html>
